@@ -146,6 +146,7 @@ docker compose up --build -d
 | Frontend   | http://localhost:8501    |
 | API Docs   | http://localhost:8000/docs |
 | Prometheus | http://localhost:9090    |
+| Grafana    | http://localhost:3001    |
 
 ---
 
