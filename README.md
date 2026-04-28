@@ -116,7 +116,7 @@ The pipeline follows a DAG-based orchestration design and can be directly integr
 
 ### Clone Repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/OmkarChaudhari21/MLOps_Project
 cd MLOps_Project
 ```
 ### Create Virtual Environment
