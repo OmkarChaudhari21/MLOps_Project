@@ -97,20 +97,23 @@ The pipeline follows a DAG-based orchestration design and can be directly integr
 ## Project Structure
 ```bash
 
-├── api/                  # FastAPI backend
-├── frontend/             # Streamlit UI
-├── src/                  # ML pipeline code
-├── data/                 # Raw & processed data
-├── models/               # Saved models
-├── mlruns/               # MLflow tracking
-├── tests/                # Test cases
-├── docs/                 # Documentation
-├── docker-compose.yml
-├── Dockerfile.api
-├── Dockerfile.frontend
-├── prometheus.yml
-├── requirements.txt
-├── README.md
+├── api/                     # FastAPI backend (model inference APIs)
+├── frontend/                # Streamlit UI (dashboard + pipeline view)
+├── src/                     # ML pipeline (ingestion, preprocessing, training)
+├── data/
+│   └── processed/           # Processed data tracked using DVC
+├── tests/                   # Unit test cases
+├── docs/                    # Documentation (architecture, test report, user manual)
+├── .dvc/                    # DVC metadata and pipeline tracking
+├── .github/workflows/       # CI pipeline (GitHub Actions)
+├── docker-compose.yml       # Multi-container orchestration
+├── Dockerfile.api           # Backend container config
+├── Dockerfile.frontend      # Frontend container config
+├── prometheus.yml           # Prometheus monitoring configuration
+├── requirements.txt         # Python dependencies
+├── setup_dvc.sh             # Script to initialize DVC
+├── README.md                # Project documentation
+├── video.mp4                # Demonstration video
 ```
 
 ## Setup & Run
