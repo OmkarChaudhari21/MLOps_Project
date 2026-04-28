@@ -89,6 +89,8 @@ User (Streamlit UI) -> FastAPI (/predict API) -> Trained ML Model (XGBoost) -> P
 * Logs predictions alongside actual outcomes for future analysis.
 * Detects data drift and supports manual retraining triggers.
 
+The pipeline follows a DAG-based orchestration design and can be directly integrated with Airflow. The current orchestrator.py simulates task-based execution similar to Airflow DAGs.
+
 ---
 
 ## Project Structure
