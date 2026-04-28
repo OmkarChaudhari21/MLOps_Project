@@ -95,7 +95,6 @@ The pipeline follows a DAG-based orchestration design and can be directly integr
 
 ## Project Structure
 
-```text
 ├── api/                  # FastAPI backend
 ├── frontend/             # Streamlit UI
 ├── src/                  # ML pipeline code
@@ -112,7 +111,6 @@ The pipeline follows a DAG-based orchestration design and can be directly integr
 ├── README.md
 
 ## Setup & Run
-```text
 
 ### Clone Repository
 git clone <your-repo-url>
@@ -140,7 +138,6 @@ docker compose up --build -d
 ---
 
 ## Testing
-```bash
 pytest tests/
 
 ## Results
