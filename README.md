@@ -34,7 +34,8 @@ Companies face difficulty in identifying customers who are likely to leave their
 | **Backend API** | FastAPI |
 | **Frontend** | Streamlit |
 | **Experiment Tracking** | MLflow |
-| **Monitoring** | Prometheus |
+| **Monitoring** | Prometheus with Grafana |
+| **Version Control** | DVC |
 | **Containerization** | Docker, Docker Compose |
 | **Language** | Python |
 
