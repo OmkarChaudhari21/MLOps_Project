@@ -110,6 +110,7 @@ User (Streamlit UI) -> FastAPI (/predict API) -> Trained ML Model (XGBoost) -> P
 ├── README.md
 
 ## Setup & Run
+```text
 
 ### Clone Repository
 git clone <your-repo-url>
