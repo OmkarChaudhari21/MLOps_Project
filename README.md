@@ -94,6 +94,7 @@ The pipeline follows a DAG-based orchestration design and can be directly integr
 ---
 
 ## Project Structure
+```bash
 
 ├── api/                  # FastAPI backend
 ├── frontend/             # Streamlit UI
@@ -109,6 +110,7 @@ The pipeline follows a DAG-based orchestration design and can be directly integr
 ├── prometheus.yml
 ├── requirements.txt
 ├── README.md
+```
 
 ## Setup & Run
 
