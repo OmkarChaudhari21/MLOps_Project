@@ -6,6 +6,9 @@ from src.train_model import train
 from src.drift_detection import detect_drift
 from src.logger import logger
 import os
+import time
+
+start = time.time()
 
 def run_pipeline():
     logger.info("=== STARTING ML PIPELINE DAG ===")
@@ -26,5 +29,9 @@ def run_pipeline():
     detect_drift()
     logger.info("=== PIPELINE COMPLETION SUCCESS ===")
 
+end = time.time()
+print(f"Pipeline execution time: {end - start:.2f} seconds")
+
 if __name__ == "__main__":
     run_pipeline()
+
