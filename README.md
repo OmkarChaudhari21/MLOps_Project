@@ -115,17 +115,27 @@ The pipeline follows a DAG-based orchestration design and can be directly integr
 ## Setup & Run
 
 ### Clone Repository
+```bash
 git clone <your-repo-url>
 cd MLOps_Project
+```
 ### Create Virtual Environment
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
 ### Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 ### Run ML Pipeline
+```bash
 python -m src.orchestrator
+```
 ### Start System (Docker)
+```bash
 docker compose up --build -d
+```
 
 ---
 
@@ -140,7 +150,9 @@ docker compose up --build -d
 ---
 
 ## Testing
+```bash
 pytest tests/
+```
 
 ## Results
 
